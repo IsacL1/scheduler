@@ -1,38 +1,51 @@
-.App {
+body{
+  margin: 9px;
+}
+
+ .e-schedule .e-appointment-details{
+  padding: 0  !important;
+ }
+
+ .template-wrap{
+  background: green;
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  font-size: 41px;
+  font-weight: 500;
+ } 
+
+ .month-template-wrap{
+  background: red;
+  padding: 1px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
   text-align: center;
-}
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ .scheduler-title-container{
+  width: 80%;
+  display: inline-block;
+  text-align: center;
+  font-weight: 500;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ .treeview-title-container{
+  display: inline-block;
+  width: 20%;
+  padding-left: 20px;
+  text-align: left;
+  font-weight: 500;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ .scheduler-component{
+  float: left;
+  width: 80%;
+ }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .treeview-component{
+  float: right;
+  width: 20%;
+ }
